@@ -264,7 +264,7 @@ def call_hilbert():
 
 
 def get_image():
-    im = Image.open('lion.jpg', 'r')
+    im = Image.open('assets/lion.jpg', 'r')
     data = im.getdata()
     return data
 
