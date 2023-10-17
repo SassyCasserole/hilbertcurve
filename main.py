@@ -284,10 +284,9 @@ def sample_hilbert(image, points):
     print(len(reds))
 
     chunks = [reds[x:x + width] for x in range(0, len(reds), width)]
-    #print(chunks)
 
     chunks = chunks[:-1]
-
+    print(chunks)
     return chunks
 
 
